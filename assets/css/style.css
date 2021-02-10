@@ -535,3 +535,60 @@ a.social-instagram {
 a {
   text-decoration: none;
 }
+
+a.email {
+  position: absolute;
+  width: 177px;
+  height: 34px;
+  left: 100px;
+  top: 3616px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #FFDACC;
+}
+
+.footer-social-github {
+  position: absolute;
+  width: 27.46px;
+  height: 27px;
+  left: 31px;
+  top: 3662px;
+}
+
+.footer-social-twitter {
+  position: absolute;
+  width: 27px;
+  height: 22.31px;
+  left: 72px;
+  top: 3664px;
+}
+
+.footer-social-linkedin {
+  position: absolute;
+  width: 16.16px;
+  height: 16.28px;
+  left: 121.54px;
+  top: 3662.29px;
+}
+
+.footer-social-facebook {
+  position: absolute;
+  width: 7.11px;
+  height: 15.23px;
+  left:180px;
+  top: 3662px;
+}
+
+.footer-social-instagram {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 240px;
+  top: 3662px;
+}
