@@ -1,0 +1,537 @@
+#main-page {
+  /* Template 1-Main-Mobile */
+  position: relative;
+  width: 375px;
+  height: 3998px;
+
+  background: #F2F2F2;
+}
+
+.main-nav {
+ /* Portfolio About Contact */
+  position: absolute;
+  width: 243px;
+  height: 34px;
+  left: 109px;
+  top: 36px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  color: #000000;
+}
+
+.C {
+  /* C */
+  position: absolute;
+  width: 29.58px;
+  height: 31px;
+  left: 32px;
+  top: 29px;
+  /* background: #F9855B; */
+}
+
+.G {
+  /* G */
+  position: absolute;
+  width: 29.67px;
+  height: 30.96px;
+  left: 58.21px;
+  top: 29.03px;
+  /* background: #F9855B; */
+}
+
+.hand {
+  /* hand */
+  position: absolute;
+  width: 36px;
+  height: 54px;
+  left: 24px;
+  top: 150px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+}
+
+.page-heading {
+  /* Pretty code by ingenious person */
+  position: absolute;
+  width: 330px;
+  height: 144px;
+  left: 26px;
+  top: 204px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 120%;
+  /* or 48px */
+  color: #000000;
+}
+
+.about-me-txt {
+  position: absolute;
+  width: 320px;
+  height: 205px;
+  left: 28px;
+  top: 374px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+
+  color: #727274;
+}
+
+.my-work-txt {
+  /* My works in social networks */
+
+  position: absolute;
+  width: 318px;
+  height: 34px;
+  left: 26px;
+  top: 573px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #525252;
+}
+
+a.social-github {
+  position: absolute;
+  width: 27.46px;
+  height: 27px;
+  left: 23px;
+  top: 631px;
+}
+
+a.social-twitter {
+  position: absolute;
+  width: 27px;
+  height: 22.31px;
+  left: 64px;
+  top: 633px;
+}
+
+a.social-linkedin {
+  position: absolute;
+  width: 5.96px;
+  height: 5.5px;
+  left: 105px;
+  top: 633px;
+}
+
+a.social-facebook {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 144px;
+  top: 630px;
+
+}
+
+a.social-instagram {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 186px;
+  top: 630px;
+}
+
+.my-best-works-txt {
+  /* My best works */
+  position: absolute;
+  width: 209px;
+  height: 29px;
+  left: 24px;
+  top: 695px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 105.3%;
+  /* or 29px */
+
+  color: #000000;
+}
+
+.work {
+  position: absolute;
+  width: 390px;
+  height: 280px;
+  left: 26px;
+}
+
+.work-1 {
+  top: 769px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/rails-s.png);
+}
+
+.work-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+.work-title-1 {
+  position: absolute;
+  /* width: 148px; */
+  height: 43px;
+  left: 47px;
+  top: 730px;
+}
+
+.proj-lang-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  /* identical to box height */
+  vertical-align: middle;
+  text-align: center;
+  /* position: absolute; */
+  background: #423B39;
+  /* top: 1066px; */
+}
+
+.work-html-wrap {
+  width: 91px;
+  height: 30px;
+  /* left: 26px; */
+}
+
+.work-ror-wrap {  
+  width: 111px;
+  height: 30px;
+  /* left: 124px;  */
+}
+
+.work-js-wrap {
+  width: 91px;
+  height: 30px;
+  /* left: 242px; */
+}
+
+.lang-wrap {
+  position: absolute;
+  width: 390px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.lang-wrap-1 {
+  top: 1066px;
+}
+
+.see-project-1 {
+  top: 1125px;
+}
+
+.see-project {
+  position: absolute;
+  width: 324px;
+  height: 37px;
+  left: 33px;
+  line-height: 37px;
+  background: #F9855B;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.work-2 {
+  top: 1208px;  
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/rails-2.png);
+}
+
+.work-title-2 {
+  position: absolute;
+  /* width: 130px; */
+  height: 38px;
+  left: 47px;
+  top: 1174px;
+}
+
+.lang-wrap-2 {
+  top: 1496px;
+}
+
+.see-project-2 {
+  top: 1556px;
+}
+
+.work-title-3 {
+  position: absolute;
+  /* width: 286.62px; */
+  height: 45.69px;
+  left: 50.92px;
+  top: 1596px;
+}
+
+.work-3 {
+  top: 1635px;
+  background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/html-s.png);
+}
+
+
+.lang-wrap-3 {
+  top: 1924px;
+}
+
+.see-project-3 {
+  top: 1988px;
+}
+
+.about-me {
+  position: absolute;
+  width: 142px;
+  height: 29px;
+  left: 26px;
+  top: 2068px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 105.3%;
+  /* or 29px */
+  color: #000000;
+}
+
+.about-txt {
+  position: absolute;
+  width: 324px;
+  height: 135px;
+  left: 26px;
+  top: 2120px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.get-my-resume {
+  position: absolute;
+  width: 225px;
+  height: 59px;
+  left: 26px;
+  top: 2420px;
+  background: #F9855B;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.lang-heading {
+  position: absolute;
+  width: 113px;
+  height: 21px;
+  left: 26px;
+  top: 2498px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 105.3%;
+  /* identical to box height, or 21px */
+  color: #000000;
+}
+
+.lang-list {
+  display: inline-block;
+  position: absolute;
+  width: 327px;
+  height: 86px;
+  left: 26px;
+  top: 2560px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 212.5%;
+  /* or 34px */
+  color: #727274;
+}
+
+.line {
+  position: absolute;
+  width: 325px;
+  height: 0px;
+  left: 26px;
+  border: 1px solid #CFD2DA;
+}
+
+.line-1 {
+  top: 2632px;
+}
+
+.frameworks {
+  position: absolute;
+  width: 127px;
+  height: 21px;
+  left: 26px;
+  top: 2635px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 105.3%;
+  /* identical to box height, or 21px */
+  color: #000000;
+}
+
+.framework-list {
+  position: absolute;
+  width: 327px;
+  height: 78px;
+  left: 26px;
+  top: 2672px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 212.5%;
+  /* or 34px */
+  color: #727274;
+}
+
+.footer-wrap {
+  position: absolute;  
+  width: 390px;
+  height: 900px;
+  left: 0px;
+  top: 2836px;
+
+  background: #F9855B;
+}
+
+.footer-heading {
+  position: absolute;
+  width: 297px;
+  height: 58px;
+  left: 40px;
+  top: 2860px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 105.3%;
+  /* or 29px */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hire-text {
+  position: absolute;
+  width: 330px;
+  height: 107px;
+  left: 23px;
+  top: 2980px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.name-input {
+  position: absolute;
+  width: 332px;
+  height: 59px;
+  left: 22px;
+  top: 3132px;
+  background: #FFFFFF;
+
+  font-size: 16px;
+  padding-left: 16px;
+}
+
+.email-input {
+  position: absolute;
+  width: 332px;
+  height: 59px;
+  left: 22px;
+  top: 3220px;
+  background: #FFFFFF;
+
+  font-size: 16px;
+  padding-left: 16px;
+}
+
+.msg-input {
+  position: absolute;
+  width: 332px;
+  height: 185px;
+  left: 22px;
+  top: 3310px;
+  background: #FFFFFF;
+
+  font-size: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.get-intouch {
+  position: absolute;
+  width: 332px;
+  height: 59px;
+  left: 22px;
+  top: 3539px;
+
+  background: #000000;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,71 @@
+body {
+  background-color: #E5E5E5;
+}
+
+/* Template 1-Main */
+
+.main-page {
+  position: relative;
+  width: 1440px;
+  height: 2951px;
+  background: #F2F2F2;
+
+  .brand-1 {
+    position: absolute;
+    width: 29.58px;
+    height: 31px;
+    left: 90px;
+    top: 47px;
+    background: #F9855B;
+  }
+
+  .brand-2 {
+    position: absolute;
+    width: 29.67px;
+    height: 30.96px;
+    left: 116.21px;
+    top: 47.03px;
+    background: #F9855B;
+  }
+
+  /* </Intro> Portfolio About Contact */
+
+  .main-nav {
+    position: absolute;
+    width: 412px;
+    height: 34px;
+    left: 940px;
+    top: 57px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+
+    .nav-list {
+      color: #000;
+      text-decoration: none;
+      
+      &:first-of-type {
+        color: #F9855B;
+      }
+
+      &:hover {
+        color: -webkit-link;
+      }
+    }
+  }
+
+  /* background pattern */
+  .background {
+    position: absolute;
+    width: 518px;
+    height: 1323.48px;
+    left: 998px;
+    top: 188px;
+
+    background-image: linear-gradient(to bottom right, red, yellow);
+  }
+}
