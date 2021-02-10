@@ -432,12 +432,48 @@ a.social-instagram {
   color: #727274;
 }
 
+.line-2 {
+  top: 2776px;
+}
+
+.skills {
+  position: absolute;
+  width: 50px;
+  height: 21px;
+  left: 26px;
+  top: 2772px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 105.3%;
+  /* identical to box height, or 21px */
+  color: #000000;
+}
+
+.skills-list {
+  position: absolute;
+  width: 327px;
+  height: 78px;
+  left: 26px;
+  top: 2824px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 212.5%;
+  /* or 34px */
+  color: #727274;
+}
+
 .footer-wrap {
   position: absolute;  
   width: 390px;
   height: 900px;
   left: 0px;
-  top: 2836px;
+  top: 2936px;
 
   background: #F9855B;
 }
@@ -447,7 +483,7 @@ a.social-instagram {
   width: 297px;
   height: 58px;
   left: 40px;
-  top: 2860px;
+  top: 2960px;
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -464,7 +500,7 @@ a.social-instagram {
   width: 330px;
   height: 107px;
   left: 23px;
-  top: 2980px;
+  top: 3080px;
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -481,7 +517,7 @@ a.social-instagram {
   width: 332px;
   height: 59px;
   left: 22px;
-  top: 3132px;
+  top: 3232px;
   background: #FFFFFF;
 
   font-size: 16px;
@@ -493,7 +529,7 @@ a.social-instagram {
   width: 332px;
   height: 59px;
   left: 22px;
-  top: 3220px;
+  top: 3320px;
   background: #FFFFFF;
 
   font-size: 16px;
@@ -505,7 +541,7 @@ a.social-instagram {
   width: 332px;
   height: 185px;
   left: 22px;
-  top: 3310px;
+  top: 3410px;
   background: #FFFFFF;
 
   font-size: 16px;
@@ -518,7 +554,7 @@ a.social-instagram {
   width: 332px;
   height: 59px;
   left: 22px;
-  top: 3539px;
+  top: 3639px;
 
   background: #000000;
   border: 1px solid #000000;
@@ -541,7 +577,7 @@ a.email {
   width: 177px;
   height: 34px;
   left: 100px;
-  top: 3616px;
+  top: 3716px;
 
   font-family: Poppins;
   font-style: normal;
@@ -558,7 +594,7 @@ a.email {
   width: 27.46px;
   height: 27px;
   left: 31px;
-  top: 3662px;
+  top: 3762px;
 }
 
 .footer-social-twitter {
@@ -566,7 +602,7 @@ a.email {
   width: 27px;
   height: 22.31px;
   left: 72px;
-  top: 3664px;
+  top: 3764px;
 }
 
 .footer-social-linkedin {
@@ -574,7 +610,7 @@ a.email {
   width: 16.16px;
   height: 16.28px;
   left: 121.54px;
-  top: 3662.29px;
+  top: 3762.29px;
 }
 
 .footer-social-facebook {
@@ -582,7 +618,7 @@ a.email {
   width: 7.11px;
   height: 15.23px;
   left:180px;
-  top: 3662px;
+  top: 3762px;
 }
 
 .footer-social-instagram {
@@ -590,5 +626,5 @@ a.email {
   width: 28px;
   height: 28px;
   left: 240px;
-  top: 3662px;
+  top: 3762px;
 }
