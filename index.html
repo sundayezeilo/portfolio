@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="./js/script.js"></script>
     <!-- <script src="https://use.fontawesome.com/3b60c922e7.js"></script> -->
   </head>
   <body>
@@ -124,9 +125,9 @@
         <h2 class="contact-heading">Interested in collaborating?</h2>
         <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.</p>
 
-        <form action="https://mailthis.to/ezeilo.su@gmail.com" method="POST">
-          <input type="text" name="name" placeholder="Your name">
-          <input type="email" name="_replyto" placeholder="Your email">
+        <form onsubmit = "return myValidation();" action="https://mailthis.to/ezeilo.su@gmail.com" method="POST">
+          <input type="text" name="name" id="name" placeholder="Full name*">
+          <input type="email" id="email" name="_replyto" placeholder="Email*">
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Message*"></textarea>
           <input type="submit" value="Get in touch" class="contact-button">
         </form>
