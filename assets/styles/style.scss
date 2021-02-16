@@ -1,0 +1,413 @@
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 992px;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.page {
+  padding-left: 15px;
+  padding-right: 0;
+  position: absolute;
+  width: 375px;
+  height: 3998px;
+  background: #F2F2F2;
+
+  #main-nav {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+    .profile-photo {
+      width: 70px;
+      height: 70px;
+      display: inline-block;
+      border-radius: 50%;
+    }
+    
+    .nav-links {
+      width: 243px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+        color: #000000;
+      }
+    }
+  }
+
+  .brief-intro {
+    width: 330px;
+    margin-top: 40px;
+    h1 {  
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 120%;
+      /* or 48px */
+      color: #000000;
+    }
+
+    .welcome-msg {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      color: #727274;
+    }
+  }
+
+  .my-works-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+  }
+
+  ul.social-network {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 15px;
+  
+    li {
+      display: inline;
+      margin: 0 5px;
+    }
+  }
+  
+  /* social icons */
+  
+  .social-network {
+    a.icoLinkedin:hover {
+      background-color: #007bb7;
+    }
+  
+    a.icoFacebook:hover {
+      background-color: #3b5998;
+    }
+  
+    a.icoGitHub:hover {
+      background-color: #222;
+    }
+  
+    a.icoTwitter:hover {
+      background-color: #2af;
+    }
+  
+    a.icoInstagram:hover {
+      background-color: #222;
+    }
+  
+    a {
+      background-color: #F9855B;
+    }
+  }
+  
+  .social-circle {
+    i {
+      margin: 0;
+      line-height: 30px;
+      text-align: center;
+      color: #595959;
+      -webkit-transition: all 0.8s;
+      -moz-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+  
+    &:hover i {
+      color: #fff;
+    }
+  
+    a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      font-size: 15px;
+  
+      &:hover i {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        transition: all 0.2s;
+      }
+    }
+  }
+
+  .my-best-works-heading {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 105.3%;
+    /* or 29px */
+    color: #000000;
+  }
+
+  .screenshots-wrap {
+    .work-1 {
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-s.png);
+    }
+
+    .work-2 {
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-2.png);
+    }
+
+    .work-3 {
+      background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/html-s.png);
+    }
+
+    .work-4 {
+      background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/weatherapp-s.png);
+    }
+
+    .work-5 {
+      background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/rest-s.png);
+    }
+
+    .screenshots {
+      width: 324px;
+      height: 260px;
+      background-size: cover;
+      background-position: center;
+      margin-top: 15px;
+      margin-left: 15px;    
+    }
+  }
+
+  .lang-list {
+    margin-left: 15px;
+    width: 324px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+
+    button {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #FFFFFF;
+      background: #423B39;
+    }
+
+    .html-btn {
+      width: 91px;
+      height: 30px;
+    }
+
+    .rails-btn {
+      width: 111px;
+      height: 30px;
+    }
+
+    .js-btn {
+      width: 91px;
+      height: 30px;
+    }
+  }
+
+  .proj-detail-btn {
+    width: 324px;
+    margin: 24px 15px;
+    color: #fff;
+    background: #F9855B;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 37px;
+    text-align: center;
+  }
+
+  .proj-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #FFFFFF;
+  }
+
+  #about-me-heading {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 40px;
+  }
+
+  .about-me-txt {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+
+  .get-resume {
+    width: 225px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 59px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #F9855B;
+  }
+
+  .lang-section,
+  .skills-section,
+  .framework-section {
+    margin-top: 40px;
+    margin-right: 16px;
+    border-bottom: 1px solid #CFD2DA;
+
+    .heading {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 21px;
+      color: #000000;
+    }
+
+    p {
+      font-size: 16px;
+      color: #727274;
+    }
+  }
+
+  .skills-section {
+    border: none;
+  }
+
+  #contact-section {
+    width: 376px;
+    height: 900px;
+    margin-left: -15px;
+    background: #F9855B;
+    padding-top: 40px;
+    margin-top: 30px;
+
+    .contact-heading {
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 29px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .contact-text {
+      width: 330px;
+      font-size: 16px;
+      color: #FFFFFF;
+      line-height: 24px;
+      text-align: center;
+      margin-left: 15px;
+      margin-top: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      input {
+        width: 332px;
+        height: 59px;
+        padding: 20px;
+        margin-top: 30px;
+      }
+
+      textarea {
+        width: 332px;
+        height: 185px;
+        padding: 20px;
+        margin-top: 30px;
+      }
+
+      .contact-button {
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        background: #000000;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+      }
+    }
+
+    .social-network {
+      margin-top: 70px;
+      margin-left: 15px;
+      
+      a.icoLinkedin:hover {
+        background-color: #007bb7;
+      }
+
+      a.icoFacebook:hover {
+        background-color: #3b5998;
+      }
+
+      a.icoGitHub:hover {
+        background-color: #222;
+      }
+
+      a.icoTwitter:hover {
+        background-color: #2af;
+      }
+
+      a.icoInstagram:hover {
+        background-color: #222;
+      }
+
+      a {
+        background-color: #fff;
+      }
+    }
+
+    .social-circle {
+      i {
+        color: #F9855B;;
+      }
+    }
+  }
+}
+
+
+@media (min-width: $breakpoint-desktop) {
+  
+}

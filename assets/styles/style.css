@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.page {
+  padding-left: 15px;
+  padding-right: 0;
+  position: absolute;
+  width: 375px;
+  height: 3998px;
+  background: #F2F2F2;
+  /* social icons */
+}
+
+.page #main-nav {
+  margin-top: 30px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page #main-nav .profile-photo {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.page #main-nav .nav-links {
+  width: 243px;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page #main-nav .nav-links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  color: #000000;
+}
+
+.page .brief-intro {
+  width: 330px;
+  margin-top: 40px;
+}
+
+.page .brief-intro h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 120%;
+  /* or 48px */
+  color: #000000;
+}
+
+.page .brief-intro .welcome-msg {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #727274;
+}
+
+.page .my-works-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #525252;
+}
+
+.page ul.social-network {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.page ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.page .social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.page .social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+
+.page .social-network a.icoGitHub:hover {
+  background-color: #222;
+}
+
+.page .social-network a.icoTwitter:hover {
+  background-color: #2af;
+}
+
+.page .social-network a.icoInstagram:hover {
+  background-color: #222;
+}
+
+.page .social-network a {
+  background-color: #F9855B;
+}
+
+.page .social-circle i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.page .social-circle:hover i {
+  color: #fff;
+}
+
+.page .social-circle a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.page .social-circle a:hover i {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.page .my-best-works-heading {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 105.3%;
+  /* or 29px */
+  color: #000000;
+}
+
+.page .screenshots-wrap .work-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), color-stop(98.35%, rgba(0, 0, 0, 0))), url(../images/mobile/rails-s.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-s.png);
+}
+
+.page .screenshots-wrap .work-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), color-stop(98.35%, rgba(0, 0, 0, 0))), url(../images/mobile/rails-2.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-2.png);
+}
+
+.page .screenshots-wrap .work-3 {
+  background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/html-s.png);
+}
+
+.page .screenshots-wrap .work-4 {
+  background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/weatherapp-s.png);
+}
+
+.page .screenshots-wrap .work-5 {
+  background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/rest-s.png);
+}
+
+.page .screenshots-wrap .screenshots {
+  width: 324px;
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.page .lang-list {
+  margin-left: 15px;
+  width: 324px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0;
+}
+
+.page .lang-list button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #423B39;
+}
+
+.page .lang-list .html-btn {
+  width: 91px;
+  height: 30px;
+}
+
+.page .lang-list .rails-btn {
+  width: 111px;
+  height: 30px;
+}
+
+.page .lang-list .js-btn {
+  width: 91px;
+  height: 30px;
+}
+
+.page .proj-detail-btn {
+  width: 324px;
+  margin: 24px 15px;
+  color: #fff;
+  background: #F9855B;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.page .proj-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+.page #about-me-heading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.page .about-me-txt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.page .get-resume {
+  width: 225px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 59px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #F9855B;
+}
+
+.page .lang-section,
+.page .skills-section,
+.page .framework-section {
+  margin-top: 40px;
+  margin-right: 16px;
+  border-bottom: 1px solid #CFD2DA;
+}
+
+.page .lang-section .heading,
+.page .skills-section .heading,
+.page .framework-section .heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.page .lang-section p,
+.page .skills-section p,
+.page .framework-section p {
+  font-size: 16px;
+  color: #727274;
+}
+
+.page .skills-section {
+  border: none;
+}
+
+.page #contact-section {
+  width: 376px;
+  height: 900px;
+  margin-left: -15px;
+  background: #F9855B;
+  padding-top: 40px;
+  margin-top: 30px;
+}
+
+.page #contact-section .contact-heading {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.page #contact-section .contact-text {
+  width: 330px;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.page #contact-section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page #contact-section form input {
+  width: 332px;
+  height: 59px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.page #contact-section form textarea {
+  width: 332px;
+  height: 185px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.page #contact-section form .contact-button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  background: #000000;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.page #contact-section .social-network {
+  margin-top: 70px;
+  margin-left: 15px;
+}
+
+.page #contact-section .social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.page #contact-section .social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+
+.page #contact-section .social-network a.icoGitHub:hover {
+  background-color: #222;
+}
+
+.page #contact-section .social-network a.icoTwitter:hover {
+  background-color: #2af;
+}
+
+.page #contact-section .social-network a.icoInstagram:hover {
+  background-color: #222;
+}
+
+.page #contact-section .social-network a {
+  background-color: #fff;
+}
+
+.page #contact-section .social-circle i {
+  color: #F9855B;
+}
+/*# sourceMappingURL=style.css.map */

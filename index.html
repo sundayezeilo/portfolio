@@ -4,87 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- <script src="https://use.fontawesome.com/3b60c922e7.js"></script> -->
   </head>
   <body>
-    <main class="main-page">
-      <img class="C" src="assets/images/C.png" alt="C">
-      <img class="G" src="assets/images/G.png" alt="G">
-      <nav class="main-nav">
-        <a class="nav-list" href="#">&lt;Intro&gt;</a>
-        <a class="nav-list" href="#">Portfolio</a>
-        <a class="nav-list" href="#">About</a>
-        <a class="nav-list" href="#">Contact</a>
+    <div class="page container">
+      <nav id="main-nav">
+        <img src="./assets/images/photo2b.jpg" alt="" class="profile-photo">
+        <div class="nav-links">
+          <a class="nav-list" href="#intro">&lt;Intro&gt;</a>
+          <a class="nav-list" href="#">Portfolio</a>
+          <a class="nav-list" href="#about-section">About</a>
+          <a class="nav-list" href="#contact-section">Contact</a>
+        </div>
       </nav>
-      <img class="hand" src="assets/images/hand.png" alt="">
-      <h2 class="page-heading">Pretty code by ingenious person</h2>
-      <h5 class="about-me-txt">Hello I am a software developer! I can help you build a product, featre or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</h5>
-      <h5 class="my-work-txt">My works in social networks</h5>
-      <a href="https://github.com/ezeilo-su" target="_blank" class="social-github"><img src="assets/images/Github-1.png" alt="" class="github"></a>
-      <a href="https://twitter.com/SundayEzeilo" target="_blank" class="social-twitter"><img src="assets/images/Twitter-1.png" alt="" class="twitter"></a>
-      <a href="https://www.linkedin.com/in/sunday-ezeilo-a6a67664/" target="_blank" class="social-linkedin"><img src="assets/images/LinkedIN-5.png" alt="" class="linkedin"></a>
-      <a href="https://web.facebook.com/su.ezeilo/" class="social-facebook" target="_blank"><img src="assets/images/Facebook-1.png" alt="" class="facebook"></a>
-      <a href="https://www.instagram.com/sunday_ezeilo/" target="_blank" class="social-instagram"><img src="assets/images/Instagram-1.png" alt="" class="instagram"></a>
-      <h3 class="my-best-works-txt">My Best works</h3>
-      <a href="#" class="work work-1"></a>
-      <h5 class="work-title work-title-1">Huzi.io</h5>
-      <div class="lang-wrap lang-wrap-1">
-        <div class="proj-lang-txt work-html-wrap">HTML/CSS</div>
-        <div class="proj-lang-txt work-ror-wrap">Ruby on Rails</div>
-        <div class="proj-lang-txt work-js-wrap">JavaScript</div>
+      <div class="brief-intro">
+        <h1 id="intro">Sunday U. Ezeilo<br>
+          Full-Stack Software Developer
+        </h1>
+        <p class="welcome-msg">
+          Hello I am a software developer! I can help you build a product, featre or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.
+        </p>               
       </div>
-      <a href="#" class="see-project see-project-1">See the project</a>
-
-      <a href="#" class="work work-2"></a>
-      <h5 class="work-title work-title-2">SoapSoap</h5>
-      <div class="lang-wrap lang-wrap-2">
-        <div class="proj-lang-txt work-html-wrap">HTML/CSS</div>
-        <div class="proj-lang-txt work-ror-wrap">Ruby on Rails</div>
-        <div class="proj-lang-txt work-js-wrap">JavaScript</div>
+      <div class="row">
+        <h2 class="col-md-6 my-works-heading">My works in social networks</h2>
+        <ul class="col-md-6 social-network">
+          <li class="social-circle"><a href="https://github.com/ezeilo-su" class="icoGitHub"  target="_blank"><i class="fa fa-github social-icons" aria-hidden="true"></i></a></li>
+          <li class="social-circle"><a href="https://web.facebook.com/su.ezeilo/" class="icoFacebook" target="_blank"><i class="fa fa-facebook social-icons"  aria-hidden="true"></i></a></li>
+          <li class="social-circle"><a href="https://www.linkedin.com/in/sunday-ezeilo-a6a67664/" class="icoLinkedin" target="_blank"><i class="fa fa-linkedin social-icons" aria-hidden="true"></i></a></li>
+          <li class="social-circle"><a href="https://twitter.com/SundayEzeilo" class="icoTwitter" target="_blank"><i class="fa fa-twitter social-icons" aria-hidden="true"></i></a></li>
+          <li class="social-circle"><a href="https://www.instagram.com/sunday_ezeilo/" class="icoInstagram" target="_blank"><i class="fa fa-instagram social-icons" aria-hidden="true"></i></a></li>          
+        </ul>
       </div>
-      <a href="#" class="see-project see-project-2">See the project</a>
 
-      <a href="#" class="work work-3"></a>
-      <h5 class="work-title work-title-3">Traviso</h5>
-      <div class="lang-wrap lang-wrap-3">
-        <div class="proj-lang-txt work-html-wrap">HTML/CSS</div>
-        <div class="proj-lang-txt work-ror-wrap">Ruby on Rails</div>
-        <div class="proj-lang-txt work-js-wrap">JavaScript</div>
+      <h2 class="my-best-works-heading">My best works</h2>
+
+      <div class="row screenshots-wrap">
+        <div class="col-md-6 work-1 screenshots">
+          <p class="proj-title">IoT Blog Post</p>
+        </div>
+        <div class="lang-list">
+          <button class="html-btn">HTML/CSS</button>
+          <button class="rails-btn">Ruby on Rails</button>
+          <button class="js-btn">JavaScript</button>
+        </div>
+        <button class="proj-detail-btn">See details</button>
+
+        <div class="col-md-6 work-2 screenshots">
+          <p class="proj-title">Social Network</p>
+        </div>
+        <div class="lang-list">
+          <button class="html-btn">HTML/CSS</button>
+          <button class="rails-btn">Ruby on Rails</button>
+          <button class="js-btn">JavaScript</button>
+        </div>
+        <button class="proj-detail-btn">See details</button>
+
+        <div class="col-md-4 work-3 screenshots">
+          <p class="proj-title">Electronics Store</p>
+        </div>
+        <div class="lang-list">
+          <button class="html-btn">HTML/CSS</button>
+          <button class="rails-btn">Ruby on Rails</button>
+          <button class="js-btn">JavaScript</button>
+        </div>
+        <button class="proj-detail-btn">See details</button>
+
+
+        <div class="col-md-4 work-4 screenshots">
+          <p class="proj-title">Weather App</p>
+        </div>
+        <div class="lang-list">
+          <button class="html-btn">HTML/CSS</button>
+          <button class="rails-btn">Ruby on Rails</button>
+          <button class="js-btn">JavaScript</button>
+        </div>
+        <button class="proj-detail-btn">See details</button>
+
+
+        <div class="col-md-4 work-5 screenshots">
+          <p class="proj-title">Healthy Eat Restaurantt</p>
+        </div>
+        <div class="lang-list">
+          <button class="html-btn">HTML/CSS</button>
+          <button class="rails-btn">Ruby on Rails</button>
+          <button class="js-btn">JavaScript</button>
+        </div>
+        <button class="proj-detail-btn">See details</button>
       </div>
-      <a href="#" class="see-project see-project-3">See the project</a>
 
-      <h3 class="about-me">About Me</h3>
-      <p class="about-txt">
-        I am a full-stack software developer with entry-level experience in Ruby on Rails and MERN stack. I have created several amazing projects which can see on my portfolio.
-        I am open for hire as a software engineer. Look through some of my work and experience! If you like what you see
-        and have project you need coded, don't hesistate to contact me.
-      </p>
-      <a href="#" class="get-my-resume">Get my resume</a>
-      <h5 class="lang-heading">Languages</h5>
-      <p class="lang-list">JavaScript (ES5/ES6) Ruby HTML CSS</p>
-      <div class="line line-1"></div>
-      <h5 class="frameworks">Frameworks</h5>
-      <p class="framework-list">Bootstrap Ruby on Rails RSpec Capybara Selenium</p>
-      <div class="line line-2"></div>
-      <h5 class="skills">Skills</h5>
-      <p class="skills-list">Bootstrap Bulma Codekit Codepen Github Gitlab Terminal</p>
-      <div class="footer-wrap"></div>
-      <h4 class="footer-heading">Interested in collaborating?</h4>
-      <p class="hire-text">
-        If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.
-      </p>
-      <input type="text" class="name-input" placeholder="Full Nmae*">
-      <input type="text" class="email-input" placeholder="Email*">
-      <textarea name="message" rows="10" cols="30" class="msg-input" placeholder="Message*"></textarea>
-      <a href="" class="get-intouch">Get in touch</a>
-    </main>
-    <a href="#" class="email">ezeilo.su@gmail.com</a>
-    <a href="https://github.com/ezeilo-su" target="_blank" class="github footer-social-github"><img src="assets/images/Github-2.png" alt=""></a>
-    <a href="https://twitter.com/SundayEzeilo" target="_blank" class="twitter footer-social-twitter"><img src="assets/images/Twitter-2.png" alt=""></a>
-    <a href="https://www.linkedin.com/in/sunday-ezeilo-a6a67664/" target="_blank" class="footer-social-linkedin"><img src="assets/images/LinkedIN-6.png" alt="" class="linkedin"></a>
-    <a href="https://web.facebook.com/su.ezeilo/" class="facebook footer-social-facebook" target="_blank"><img src="assets/images/Facebook-2.png" alt=""></a>
-    <a href="https://www.instagram.com/sunday_ezeilo/" target="_blank" class="instagram footer-social-instagram"><img src="assets/images/Instagram-2.png" alt=""></a>
+      <div id="about-section">
+        <h2 class="about-me-heading">About me</h2>
+        <p class="about-me-txt">I am a full-stack software developer. I have entry level experience in Ruby on Rails PostgreSQL, Node.js, Express, MongoDB, React. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
+        <button class="get-resume">Get my resume</button>
+      </div>
+
+      <div class="lang-section">
+        <h3 class="heading">Languages</h3>
+        <p class="languages">JavaScript | Ruby | HTML | CSS</p>
+      </div>
+
+      <div class="framework-section">
+        <h3 class="heading">Frameworks</h3>
+        <p class="framework-list">
+          Ruby on Rails | Bootstrap | RSpec Capybara | Selenium | NodeJS | Express React
+        </p>
+      </div>
+
+      <div class="skills-section">
+        <h3 class="heading">Skills</h3>
+        <p class="skill-list">Linux | Terminal | Git</p>
+      </div>
+
+      <div id="contact-section">
+        <h2 class="contact-heading">Interested in collaborating?</h2>
+        <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.</p>
+
+        <form action="https://mailthis.to/ezeilo.su@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Your name">
+          <input type="email" name="_replyto" placeholder="Your email">
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message*"></textarea>
+          <input type="submit" value="Get in touch" class="contact-button">
+        </form>
+
+        <ul class="col-md-6 social-network">
+          <li class="social-circle"><a href="https://github.com/ezeilo-su" class="icoGitHub"  target="_blank"><i class="fa fa-github social-icons" aria-hidden="true"></i></a></li>
+          <li class="social-circle"><a href="https://web.facebook.com/su.ezeilo/" class="icoFacebook" target="_blank"><i class="fa fa-facebook social-icons"  aria-hidden="true"></i></a></li>
+          <li class="social-circle"><a href="https://www.linkedin.com/in/sunday-ezeilo-a6a67664/" class="icoLinkedin" target="_blank"><i class="fa fa-linkedin social-icons" aria-hidden="true"></i></a></li>
+          <li class="social-circle"><a href="https://twitter.com/SundayEzeilo" class="icoTwitter" target="_blank"><i class="fa fa-twitter social-icons" aria-hidden="true"></i></a></li>
+          <li class="social-circle"><a href="https://www.instagram.com/sunday_ezeilo/" class="icoInstagram" target="_blank"><i class="fa fa-instagram social-icons" aria-hidden="true"></i></a></li>          
+        </ul>      
+      </div>
+    </div>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
