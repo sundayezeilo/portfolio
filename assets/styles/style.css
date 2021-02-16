@@ -4,8 +4,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html,
-body {
+html {
   overflow-x: hidden;
 }
 
@@ -295,6 +294,10 @@ a {
   color: #FFFFFF;
   text-align: center;
   background: #F9855B;
+}
+
+.page .get-resume:hover {
+  font-weight: bold;
 }
 
 .page .lang-section,
