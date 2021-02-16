@@ -7,6 +7,10 @@ $breakpoint-desktop: 992px;
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -373,7 +377,7 @@ a {
     .social-network {
       margin-top: 70px;
       margin-left: 15px;
-      
+
       a.icoLinkedin:hover {
         background-color: #007bb7;
       }
