@@ -7,7 +7,7 @@ $breakpoint-desktop: 992px;
   font-family: 'Poppins', sans-serif;
 }
 
-html {
+body {
   overflow-x: hidden;
 }
 
@@ -19,13 +19,12 @@ a {
   padding-left: 15px;
   padding-right: 0;
   width: 375px;
-  height: 3998px;
+  // height: 3998px;
   background: #F2F2F2;
 
-
   #main-nav {
-    margin-top: 30px;
     width: 100%;
+    padding-top: 10px;
     display: flex;
     padding-right: 20px;
     align-items: center;
@@ -175,8 +174,7 @@ a {
     font-style: normal;
     font-weight: 800;
     font-size: 28px;
-    line-height: 105.3%;
-    /* or 29px */
+    line-height: 29px;
     color: #000000;
   }
 
