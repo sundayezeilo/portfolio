@@ -4,8 +4,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html,
-body {
+html {
   overflow-x: hidden;
 }
 
@@ -425,5 +424,12 @@ a {
 
 .page #contact-section .social-circle i {
   color: #F9855B;
+}
+
+.page #contact-section .footer-border {
+  width: 334px;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-bottom: 1px solid #FFA07D;
 }
 /*# sourceMappingURL=style.css.map */
