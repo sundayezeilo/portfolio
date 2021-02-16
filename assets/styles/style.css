@@ -4,7 +4,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html {
+html,
+body {
   overflow-x: hidden;
 }
 
