@@ -7,19 +7,15 @@ $breakpoint-desktop: 992px;
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 a {
   text-decoration: none !important;
 }
 
 .page {
-  overflow-x: hidden;
   padding-left: 15px;
   padding-right: 0;
   background: #F2F2F2;
+  max-width: 95%;
 
   #main-nav {
     width: 100%;
