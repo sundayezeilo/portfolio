@@ -82,13 +82,12 @@ a {
   ul.social-network {
     display: inline-flex;
     justify-content: space-between;
-    list-style: none;
     width: 300px;
     margin: 10px auto;
   
     li {
-      display: inline;
       margin: 0 5px;
+      list-style: none;
     }
   }
   
@@ -125,7 +124,7 @@ a {
       margin: 0;
       line-height: 30px;
       text-align: center;
-      color: #595959;
+      color: #fff;
       -webkit-transition: all 0.8s;
       -moz-transition: all 0.8s;
       -o-transition: all 0.8s;
@@ -171,24 +170,32 @@ a {
     color: #000000;
   }
 
+  .work-wrap {
+    width: 100%;
+  }
   .screenshots-wrap {
     .work-1 {
+      padding-left: 10px;
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-s.png);
     }
 
     .work-2 {
+      padding-left: 10px;
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-2.png);
     }
 
     .work-3 {
+      padding-left: 10px;
       background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/html-s.png);
     }
 
     .work-4 {
+      padding-left: 10px;
       background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/weatherapp-s.png);
     }
 
     .work-5 {
+      padding-left: 10px;
       background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/rest-s.png);
     }
 
@@ -197,14 +204,11 @@ a {
       height: 260px;
       background-size: cover;
       background-position: center;
-      // margin-top: 15px;
-      // margin-left: 15px;
       margin: 15px auto;   
     }
   }
 
   .lang-list {
-    // margin-left: 15px;
     margin: 0 auto;   
     width: 324px;
     display: flex;
@@ -239,6 +243,7 @@ a {
 
   .proj-detail-btn {
     width: 324px;
+    display: block;
     margin: 24px auto;
     color: #fff;
     background: #F9855B;
@@ -316,13 +321,12 @@ a {
   }
 
   #contact-section {
-    // width: 376px;
     height: 900px;
     background: #F9855B;
     padding-top: 40px;
     margin: 0 auto;
     margin-top: 30px;
-    // margin-left: -15px;
+    text-align: center;
 
     .contact-heading {
       font-weight: 800;
@@ -333,13 +337,13 @@ a {
     }
 
     .contact-text {
-      width: 330px;
       font-size: 16px;
       color: #FFFFFF;
       line-height: 24px;
       text-align: center;
       margin-left: 15px;
       margin-top: 30px;
+      padding-right: 2%;
     }
 
     form {
@@ -375,8 +379,9 @@ a {
     }
 
     .social-network {
+      width: 324px;
+      padding-left: 0;
       margin-top: 70px;
-      margin-left: 15px;
 
       a.icoLinkedin:hover {
         background-color: #007bb7;
@@ -410,7 +415,7 @@ a {
     }
 
     .footer-border {
-      width: 334px;
+      width: 324px;
       margin: 0 auto;
       margin-top: 20px;
       border-bottom: 1px solid #FFA07D;
