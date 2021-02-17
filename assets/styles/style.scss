@@ -15,7 +15,6 @@ a {
   padding-left: 15px;
   padding-right: 0;
   background: #F2F2F2;
-  max-width: 95%;
 
   #main-nav {
     width: 100%;
@@ -317,13 +316,13 @@ a {
   }
 
   #contact-section {
-    width: 376px;
+    // width: 376px;
     height: 900px;
     background: #F9855B;
     padding-top: 40px;
     margin: 0 auto;
     margin-top: 30px;
-    // margin-left: -15px;
+    margin-left: -15px;
 
     .contact-heading {
       font-weight: 800;

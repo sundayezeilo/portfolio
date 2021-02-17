@@ -12,7 +12,6 @@ a {
   padding-left: 15px;
   padding-right: 0;
   background: #F2F2F2;
-  max-width: 95%;
   /* social icons */
 }
 
@@ -321,12 +320,12 @@ a {
 }
 
 .page #contact-section {
-  width: 376px;
   height: 900px;
   background: #F9855B;
   padding-top: 40px;
   margin: 0 auto;
   margin-top: 30px;
+  margin-left: -15px;
 }
 
 .page #contact-section .contact-heading {
