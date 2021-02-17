@@ -18,8 +18,6 @@ a {
 .page {
   padding-left: 15px;
   padding-right: 0;
-  width: 375px;
-  // height: 3998px;
   background: #F2F2F2;
 
   #main-nav {
@@ -56,7 +54,7 @@ a {
   }
 
   .brief-intro {
-    width: 330px;
+    // width: 330px;
     margin-top: 40px;
     h1 {  
       font-style: normal;
@@ -68,12 +66,12 @@ a {
     }
 
     .welcome-msg {
-      font-family: Poppins;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
       line-height: 30px;
       color: #727274;
+      padding-right: 20px;
     }
   }
 
@@ -90,8 +88,7 @@ a {
     justify-content: space-between;
     list-style: none;
     width: 300px;
-    margin-top: 10px;
-    margin-left: 15px;
+    margin: 10px auto;
   
     li {
       display: inline;
@@ -204,17 +201,19 @@ a {
       height: 260px;
       background-size: cover;
       background-position: center;
-      margin-top: 15px;
-      margin-left: 15px;    
+      // margin-top: 15px;
+      // margin-left: 15px;
+      margin: 15px auto;   
     }
   }
 
   .lang-list {
-    margin-left: 15px;
+    // margin-left: 15px;
+    margin: 0 auto;   
     width: 324px;
     display: flex;
     justify-content: space-between;
-    padding-left: 0;
+    padding: 0;
 
     button {
       font-style: normal;
@@ -227,24 +226,24 @@ a {
     }
 
     .html-btn {
-      width: 91px;
+      width: 28%;
       height: 30px;
     }
 
     .rails-btn {
-      width: 111px;
+      width: 38%;
       height: 30px;
     }
 
     .js-btn {
-      width: 91px;
+      width: 28%;
       height: 30px;
     }
   }
 
   .proj-detail-btn {
     width: 324px;
-    margin: 24px 15px;
+    margin: 24px auto;
     color: #fff;
     background: #F9855B;
 
@@ -278,9 +277,11 @@ a {
     font-size: 16px;
     line-height: 24px;
     margin-top: 20px;
+    padding-right: 30px;
   }
 
   .get-resume {
+    display: inline-block;
     width: 225px;
     font-weight: 500;
     font-size: 16px;
@@ -321,10 +322,11 @@ a {
   #contact-section {
     width: 376px;
     height: 900px;
-    margin-left: -15px;
     background: #F9855B;
     padding-top: 40px;
+    margin: 0 auto;
     margin-top: 30px;
+    // margin-left: -15px;
 
     .contact-heading {
       font-weight: 800;

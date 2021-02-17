@@ -15,7 +15,6 @@ a {
 .page {
   padding-left: 15px;
   padding-right: 0;
-  width: 375px;
   background: #F2F2F2;
   /* social icons */
 }
@@ -66,7 +65,6 @@ a {
 }
 
 .page .brief-intro {
-  width: 330px;
   margin-top: 40px;
 }
 
@@ -80,12 +78,12 @@ a {
 }
 
 .page .brief-intro .welcome-msg {
-  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   color: #727274;
+  padding-right: 20px;
 }
 
 .page .my-works-heading {
@@ -105,8 +103,7 @@ a {
           justify-content: space-between;
   list-style: none;
   width: 300px;
-  margin-top: 10px;
-  margin-left: 15px;
+  margin: 10px auto;
 }
 
 .page ul.social-network li {
@@ -205,12 +202,11 @@ a {
   height: 260px;
   background-size: cover;
   background-position: center;
-  margin-top: 15px;
-  margin-left: 15px;
+  margin: 15px auto;
 }
 
 .page .lang-list {
-  margin-left: 15px;
+  margin: 0 auto;
   width: 324px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -218,7 +214,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 0;
+  padding: 0;
 }
 
 .page .lang-list button {
@@ -232,23 +228,23 @@ a {
 }
 
 .page .lang-list .html-btn {
-  width: 91px;
+  width: 28%;
   height: 30px;
 }
 
 .page .lang-list .rails-btn {
-  width: 111px;
+  width: 38%;
   height: 30px;
 }
 
 .page .lang-list .js-btn {
-  width: 91px;
+  width: 28%;
   height: 30px;
 }
 
 .page .proj-detail-btn {
   width: 324px;
-  margin: 24px 15px;
+  margin: 24px auto;
   color: #fff;
   background: #F9855B;
   font-style: normal;
@@ -281,9 +277,11 @@ a {
   font-size: 16px;
   line-height: 24px;
   margin-top: 20px;
+  padding-right: 30px;
 }
 
 .page .get-resume {
+  display: inline-block;
   width: 225px;
   font-weight: 500;
   font-size: 16px;
@@ -328,9 +326,9 @@ a {
 .page #contact-section {
   width: 376px;
   height: 900px;
-  margin-left: -15px;
   background: #F9855B;
   padding-top: 40px;
+  margin: 0 auto;
   margin-top: 30px;
 }
 
