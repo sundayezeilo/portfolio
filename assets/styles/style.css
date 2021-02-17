@@ -209,6 +209,27 @@ a {
   margin: 15px auto;
 }
 
+.page .screenshots-wrap .screenshots .proj-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+.page .screenshots-wrap .proj-detail-btn {
+  width: 324px;
+  display: block;
+  margin: 24px auto;
+  color: #fff;
+  background: #F9855B;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 37px;
+  text-align: center;
+}
+
 .page .lang-list {
   margin: 0 auto;
   width: 324px;
@@ -246,24 +267,56 @@ a {
   height: 30px;
 }
 
-.page .proj-detail-btn {
-  width: 324px;
-  display: block;
-  margin: 24px auto;
-  color: #fff;
-  background: #F9855B;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 37px;
-  text-align: center;
+.page .modal-body .lang-list {
+  width: 303px;
+  margin-top: 30px;
 }
 
-.page .proj-title {
-  font-style: normal;
+.page .modal-body .screenshots {
+  width: 342px;
+  height: 189px;
+}
+
+.page .modal-body .pro-title {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 29px;
+  color: #000000;
+  width: 303px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.page .modal-body .pro-detail-text {
+  width: 303px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #727274;
+  margin: 0 auto;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.page .modal-body .buttons-wrap {
+  width: 303px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page .modal-body .buttons-wrap a {
+  margin-top: 20px;
+  display: block;
+  background: #F9855B;
   font-weight: bold;
-  font-size: 25px;
-  line-height: 37px;
+  font-size: 16px;
+  line-height: 59px;
+  text-align: center;
   color: #FFFFFF;
 }
 
