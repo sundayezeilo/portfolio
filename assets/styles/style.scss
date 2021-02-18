@@ -164,7 +164,6 @@ a {
 
   .my-best-works-heading {
     margin-top: 10px;
-    font-style: normal;
     font-weight: 800;
     font-size: 28px;
     line-height: 29px;
@@ -173,11 +172,14 @@ a {
 
   .work-wrap {
     width: 100%;
+    padding-left: 0;
   }
 
   .screenshots-wrap {
     max-width: 400px;
     margin: 0 auto;
+    padding-left: 0;
+    
     .work-1 {
       padding-left: 10px;
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-s.png);
@@ -207,7 +209,7 @@ a {
       max-width: 400px;
       height: 260px;
       background-size: cover;
-      background-position: center;
+      // background-position: center;
       margin: 15px auto; 
       
       
@@ -477,7 +479,7 @@ a {
     }
 
     .footer-border {
-      width: 324px;
+      max-width: 400px;
       margin: 0 auto;
       margin-top: 20px;
       border-bottom: 1px solid #FFA07D;

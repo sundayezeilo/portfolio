@@ -164,7 +164,6 @@ a {
 
 .page .my-best-works-heading {
   margin-top: 10px;
-  font-style: normal;
   font-weight: 800;
   font-size: 28px;
   line-height: 29px;
@@ -173,11 +172,13 @@ a {
 
 .page .work-wrap {
   width: 100%;
+  padding-left: 0;
 }
 
 .page .screenshots-wrap {
   max-width: 400px;
   margin: 0 auto;
+  padding-left: 0;
 }
 
 .page .screenshots-wrap .work-1 {
@@ -211,7 +212,6 @@ a {
   max-width: 400px;
   height: 260px;
   background-size: cover;
-  background-position: center;
   margin: 15px auto;
 }
 
@@ -497,7 +497,7 @@ a {
 }
 
 .page #contact-section .footer-border {
-  width: 324px;
+  max-width: 400px;
   margin: 0 auto;
   margin-top: 20px;
   border-bottom: 1px solid #FFA07D;
