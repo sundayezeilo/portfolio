@@ -457,7 +457,7 @@ a {
 }
 
 .page #contact-section .social-network {
-  max-width: 324px;
+  width: 100%;
   padding-left: 0;
   margin-top: 70px;
 }
