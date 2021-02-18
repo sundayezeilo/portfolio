@@ -456,10 +456,47 @@ a {
           box-sizing: border-box;
 }
 
+.page #contact-section .chat-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 289.8px;
+  margin: 0 auto;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page #contact-section .chat-wrap a {
+  display: block;
+}
+
+.page #contact-section .chat-wrap .fa-whatsapp {
+  font-size: 34px;
+  color: #fff;
+  margin-right: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#25d366), to(#25d366)) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 60%, transparent 0);
+  background: linear-gradient(#25d366, #25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 60%, transparent 0);
+}
+
+.page #contact-section .chat-wrap .whatsapp-number {
+  font-size: 16px;
+  text-align: center;
+  color: green;
+}
+
+.page #contact-section .chat-wrap .whatsapp-number:hover {
+  text-decoration: underline !important;
+}
+
 .page #contact-section .social-network {
   width: 100%;
   padding-left: 0;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .page #contact-section .social-network a.icoLinkedin:hover {

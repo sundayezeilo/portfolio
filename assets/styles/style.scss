@@ -435,10 +435,40 @@ a {
       }
     }
 
+    .chat-wrap {
+      display: flex;
+      align-items: center;
+      max-width: 289.8px;
+      margin: 0 auto;
+      margin-top: 30px;
+      justify-content: center;
+
+      a {
+        display: block;
+      }
+
+      .fa-whatsapp {
+        font-size: 34px;
+        color:#fff;
+        margin-right: 20px;
+        background: linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 60%,transparent 0);        
+      }
+
+      .whatsapp-number {
+        font-size: 16px;
+        text-align: center;
+        color: green;
+
+        &:hover {
+          text-decoration: underline !important;
+        } 
+      }
+    }
+
     .social-network {
       width: 100%;
       padding-left: 0;
-      margin-top: 70px;
+      margin-top: 50px;
 
       a.icoLinkedin:hover {
         background-color: #007bb7;
