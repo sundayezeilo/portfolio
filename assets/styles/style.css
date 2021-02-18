@@ -12,6 +12,7 @@ a {
 
 .page {
   padding-left: 15px;
+  padding-right: 15px;
   padding-right: 0;
   background: #F2F2F2;
   /* social icons */
@@ -34,7 +35,7 @@ a {
 
 .page #main-nav .profile-photo {
   width: 70px;
-  height: 70px;
+  height: 75px;
   display: inline-block;
   border-radius: 50%;
 }
@@ -48,9 +49,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .page #main-nav .nav-links a {
@@ -58,6 +58,10 @@ a {
   line-height: 21px;
   text-align: right;
   color: #000000;
+}
+
+.page #main-nav .nav-links a:first-of-type {
+  display: none;
 }
 
 .page .brief-intro {
@@ -165,63 +169,62 @@ a {
   color: #000000;
 }
 
-.page .work-wrap {
-  width: 100%;
-  padding-left: 0;
-}
-
 .page .screenshots-wrap {
-  max-width: 400px;
   margin: 0 auto;
   padding-left: 0;
 }
 
-.page .screenshots-wrap .work-1 {
+.page .screenshots-wrap .work-wrap {
+  padding-left: 0;
+}
+
+.page .screenshots-wrap .work-wrap .work-1 {
   padding-left: 10px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), color-stop(98.35%, rgba(0, 0, 0, 0))), url(../images/mobile/rails-s.png);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-s.png);
 }
 
-.page .screenshots-wrap .work-2 {
+.page .screenshots-wrap .work-wrap .work-2 {
   padding-left: 10px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), color-stop(98.35%, rgba(0, 0, 0, 0))), url(../images/mobile/rails-2.png);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-2.png);
 }
 
-.page .screenshots-wrap .work-3 {
+.page .screenshots-wrap .work-wrap .work-3 {
   padding-left: 10px;
   background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/html-s.png);
 }
 
-.page .screenshots-wrap .work-4 {
+.page .screenshots-wrap .work-wrap .work-4 {
   padding-left: 10px;
   background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/weatherapp-s.png);
 }
 
-.page .screenshots-wrap .work-5 {
+.page .screenshots-wrap .work-wrap .work-5 {
   padding-left: 10px;
   background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/rest-s.png);
 }
 
-.page .screenshots-wrap .screenshots {
+.page .screenshots-wrap .work-wrap .screenshots {
   max-width: 400px;
   height: 260px;
   background-size: cover;
   margin: 15px auto;
 }
 
-.page .screenshots-wrap .screenshots .proj-title {
+.page .screenshots-wrap .work-wrap .screenshots .proj-title {
   font-weight: bold;
   font-size: 25px;
   line-height: 37px;
   color: #FFFFFF;
 }
 
-.page .screenshots-wrap .details-btn-wrap {
+.page .screenshots-wrap .work-wrap .details-btn-wrap {
   max-width: 400px;
+  margin: 0 auto;
 }
 
-.page .screenshots-wrap .details-btn-wrap .proj-detail-btn {
+.page .screenshots-wrap .work-wrap .details-btn-wrap .proj-detail-btn {
   width: 100%;
   display: block;
   margin: 24px auto;
@@ -533,5 +536,41 @@ a {
   margin: 0 auto;
   margin-top: 20px;
   border-bottom: 1px solid #FFA07D;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding-left: 93px;
+  }
+  .page #main-nav .profile-photo {
+    width: 120px;
+    height: 130px;
+  }
+  .page #main-nav .nav-links {
+    width: 412px;
+  }
+  .page #main-nav .nav-links a {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .page #main-nav .nav-links a:first-of-type {
+    display: block;
+    color: #F9855B;
+  }
+  .page .my-work-social {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .page .work-wrap {
+    max-width: 100%;
+  }
+  .page .work-wrap .screenshots {
+    background-position: center;
+  }
+  .page .work-wrap .work-1,
+  .page .work-wrap .work-2 {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

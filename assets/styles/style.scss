@@ -15,6 +15,7 @@ a {
 
 .page {
   padding-left: 15px;
+  padding-right: 15px;
   padding-right: 0;
   background: #F2F2F2;
 
@@ -28,7 +29,7 @@ a {
 
     .profile-photo {
       width: 70px;
-      height: 70px;
+      height: 75px;
       display: inline-block;
       border-radius: 50%;
     }
@@ -38,13 +39,17 @@ a {
       height: 34px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
 
       a {
         font-size: 14px;
         line-height: 21px;
         text-align: right;
         color: #000000;
+
+        &:first-of-type {
+          display: none;
+        }
       }
     }
   }
@@ -164,71 +169,70 @@ a {
     color: #000000;
   }
 
-  .work-wrap {
-    width: 100%;
-    padding-left: 0;
-  }
-
   .screenshots-wrap {
-    max-width: 400px;
     margin: 0 auto;
     padding-left: 0;
-    
-    .work-1 {
-      padding-left: 10px;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-s.png);
-    }
 
-    .work-2 {
-      padding-left: 10px;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-2.png);
-    }
+    .work-wrap {
+      // max-width: 400px;
+      padding-left: 0;
 
-    .work-3 {
-      padding-left: 10px;
-      background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/html-s.png);
-    }
-
-    .work-4 {
-      padding-left: 10px;
-      background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/weatherapp-s.png);
-    }
-
-    .work-5 {
-      padding-left: 10px;
-      background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/rest-s.png);
-    }
-
-    .screenshots {
-      max-width: 400px;
-      height: 260px;
-      background-size: cover;
-      // background-position: center;
-      margin: 15px auto; 
-      
-      
-      .proj-title {
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 37px;
-        color: #FFFFFF;
+      .work-1 {
+        padding-left: 10px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-s.png);
       }
-    }
 
-    .details-btn-wrap {
-      max-width: 400px;
-      
-      .proj-detail-btn {
-        width: 100%;
-        display: block;
-        margin: 24px auto;
-        color: #fff;
-        background: #F9855B;
+      .work-2 {
+        padding-left: 10px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-2.png);
+      }
 
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 37px;
-        text-align: center;
+      .work-3 {
+        padding-left: 10px;
+        background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/html-s.png);
+      }
+
+      .work-4 {
+        padding-left: 10px;
+        background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/weatherapp-s.png);
+      }
+
+      .work-5 {
+        padding-left: 10px;
+        background: linear-gradient(180.12deg, rgba(0, 0, 0, 0.264) -18.68%, rgba(0, 0, 0, 0) 44.86%), url(../images/mobile/rest-s.png);
+      }
+
+      .screenshots {
+        max-width: 400px;
+        height: 260px;
+        background-size: cover;
+        margin: 15px auto; 
+        
+        
+        .proj-title {
+          font-weight: bold;
+          font-size: 25px;
+          line-height: 37px;
+          color: #FFFFFF;
+        }
+      }
+
+      .details-btn-wrap {
+        max-width: 400px;
+        margin: 0 auto;
+        
+        .proj-detail-btn {
+          width: 100%;
+          display: block;
+          margin: 24px auto;
+          color: #fff;
+          background: #F9855B;
+
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 37px;
+          text-align: center;
+        }
       }
     }
   }
@@ -513,5 +517,43 @@ a {
 
 
 @media (min-width: $breakpoint-tablet) {
-  
+  .page {
+    padding-left: 93px;
+    #main-nav {
+      .profile-photo {
+        width: 120px;
+        height: 130px;
+      }
+      .nav-links {   
+        width: 412px;
+
+        a {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 24px;
+
+          &:first-of-type {
+            display: block;
+            color: #F9855B;
+          }
+        }
+      }
+    }
+    .my-work-social {
+      width: 50%;
+      margin-top: 50px;
+    }
+
+    .work-wrap {
+      max-width: 100%;
+
+      .screenshots {
+        background-position: center;
+      }
+      .work-1,
+      .work-2 {
+        width: 100%;
+      }
+    }
+  }
 }
