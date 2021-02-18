@@ -4,6 +4,8 @@ $breakpoint-desktop: 992px;
 * {
   margin: 0;
   padding: 0;
+  font-style: normal;
+  font-weight: normal;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -39,8 +41,6 @@ a {
       justify-content: space-between;
 
       a {
-        font-style: normal;
-        font-weight: normal;
         font-size: 14px;
         line-height: 21px;
         text-align: right;
@@ -52,18 +52,14 @@ a {
   .brief-intro {
     // width: 330px;
     margin-top: 40px;
-    h1 {  
-      font-style: normal;
+    h1 {
       font-weight: 800;
       font-size: 40px;
-      line-height: 120%;
-      /* or 48px */
+      line-height: 48px;
       color: #000000;
     }
 
     .welcome-msg {
-      font-style: normal;
-      font-weight: normal;
       font-size: 16px;
       line-height: 30px;
       color: #727274;
@@ -72,7 +68,6 @@ a {
   }
 
   .my-works-heading {
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -214,7 +209,6 @@ a {
       
       
       .proj-title {
-        font-style: normal;
         font-weight: bold;
         font-size: 25px;
         line-height: 37px;
@@ -231,8 +225,7 @@ a {
         margin: 24px auto;
         color: #fff;
         background: #F9855B;
-  
-        font-style: normal;
+
         font-weight: 500;
         font-size: 16px;
         line-height: 37px;
@@ -249,13 +242,17 @@ a {
     padding: 0;
 
     button {
-      font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height: 21px;
       text-align: center;
       color: #FFFFFF;
       background: #423B39;
+      cursor: none;
+
+      &:focus {
+        outline: none;
+      }
     }
 
     .html-btn {
@@ -326,7 +323,6 @@ a {
   }
 
   #about-me-heading {
-    font-style: normal;
     font-weight: 800;
     font-size: 28px;
     line-height: 29px;
@@ -335,8 +331,6 @@ a {
   }
 
   .about-me-txt {
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     margin-top: 20px;
