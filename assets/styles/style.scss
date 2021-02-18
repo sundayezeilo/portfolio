@@ -82,8 +82,9 @@ a {
   ul.social-network {
     display: inline-flex;
     justify-content: space-between;
-    width: 300px;
+    max-width: 300px;
     margin: 10px auto;
+    padding-left: 0;
   
     li {
       margin: 0 5px;
@@ -175,6 +176,8 @@ a {
   }
 
   .screenshots-wrap {
+    max-width: 400px;
+    margin: 0 auto;
     .work-1 {
       padding-left: 10px;
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(../images/mobile/rails-s.png);
@@ -201,7 +204,7 @@ a {
     }
 
     .screenshots {
-      width: 324px;
+      max-width: 400px;
       height: 260px;
       background-size: cover;
       background-position: center;
@@ -217,24 +220,28 @@ a {
       }
     }
 
-    .proj-detail-btn {
-      width: 324px;
-      display: block;
-      margin: 24px auto;
-      color: #fff;
-      background: #F9855B;
-
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 37px;
-      text-align: center;
+    .details-btn-wrap {
+      max-width: 400px;
+      
+      .proj-detail-btn {
+        width: 100%;
+        display: block;
+        margin: 24px auto;
+        color: #fff;
+        background: #F9855B;
+  
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 37px;
+        text-align: center;
+      }
     }
   }
 
   .lang-list {
     margin: 0 auto;   
-    width: 324px;
+    max-width: 400px;
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -404,16 +411,18 @@ a {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      max-width: 332px;
+      margin: 0 auto;
 
       input {
-        width: 332px;
+        width: 90%;
         height: 59px;
         padding: 20px;
         margin-top: 30px;
       }
 
       textarea {
-        width: 332px;
+        width: 90%;
         height: 185px;
         padding: 20px;
         margin-top: 30px;
@@ -432,7 +441,7 @@ a {
     }
 
     .social-network {
-      width: 324px;
+      max-width: 324px;
       padding-left: 0;
       margin-top: 70px;
 
