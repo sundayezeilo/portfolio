@@ -80,6 +80,7 @@ a {
   line-height: 30px;
   color: #727274;
   padding-right: 20px;
+  text-align: justify;
 }
 
 .page .my-works-heading {
@@ -176,6 +177,8 @@ a {
 
 .page .screenshots-wrap .work-wrap {
   padding-left: 0;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .page .screenshots-wrap .work-wrap .work-1 {
@@ -206,7 +209,6 @@ a {
 }
 
 .page .screenshots-wrap .work-wrap .screenshots {
-  max-width: 400px;
   height: 260px;
   background-size: cover;
   margin: 15px auto;
@@ -328,6 +330,10 @@ a {
   line-height: 59px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.page .about-skills .about-section {
+  padding-right: 20px;
 }
 
 .page #about-me-heading {
@@ -538,7 +544,7 @@ a {
   border-bottom: 1px solid #FFA07D;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page {
     padding-left: 93px;
   }
@@ -562,15 +568,55 @@ a {
     width: 50%;
     margin-top: 50px;
   }
-  .page .work-wrap {
-    max-width: 100%;
+  .page .screenshots-wrap .work-wrap {
+    max-width: 600px;
   }
-  .page .work-wrap .screenshots {
+  .page .screenshots-wrap .work-wrap .screenshots {
     background-position: center;
   }
-  .page .work-wrap .work-1,
-  .page .work-wrap .work-2 {
-    width: 100%;
+  .page .about-skills .about-section {
+    max-width: 40%;
+  }
+  .page .about-skills .lang-skills {
+    max-width: 40%;
+    margin-right: 60px;
+  }
+  .page .about-skills .lang-skills .lang-section {
+    margin-top: 0;
+  }
+  .page #contact-section {
+    max-height: 864px;
+  }
+  .page #contact-section .contact-heading {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 40px;
+    max-width: 546px;
+    margin: 0 auto;
+  }
+  .page #contact-section .contact-text {
+    max-width: 590px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .page #contact-section form .input-wrap input:nth-child(1) {
+    width: 332px;
+    margin-right: 17px;
+  }
+  .page #contact-section form .input-wrap input:nth-child(2) {
+    width: 323px;
+  }
+  .page #contact-section form textarea {
+    width: 672px;
+    height: 185px;
+  }
+  .page #contact-section form input {
+    width: 672px;
+  }
+  .page #contact-section .footer-border {
+    max-width: 669px;
+    margin-top: 30px;
+    border: 1px solid #FFA07D;
   }
 }
 /*# sourceMappingURL=style.css.map */

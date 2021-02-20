@@ -13,6 +13,7 @@
     <script src="https://use.fontawesome.com/3b60c922e7.js"></script>
   </head>
   <body>
+
     <div class="page container">
       <nav id="main-nav">
         <img src="./assets/images/photo2b.jpg" alt="profile-photo" class="profile-photo">
@@ -31,9 +32,9 @@
           Hello,<br>I am a software developer! I can help you build a product, featre or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.
         </p>               
       </div>
-      <div class="row d-md-flex align-items-center my-work-social">
-        <h2 class="col-md-6 my-works-heading">My works in social networks</h2>
-        <ul class="col-md-6 social-network mt-0">
+      <div class="d-md-flex align-items-center my-work-social">
+        <h2 class="my-works-heading">My works in social networks</h2>
+        <ul class="social-network mt-0">
           <li class="social-circle"><a href="https://github.com/ezeilo-su" class="icoGitHub"  target="_blank"><i class="fa fa-github social-icons" aria-hidden="true"></i></a></li>
           <li class="social-circle"><a href="https://web.facebook.com/su.ezeilo/" class="icoFacebook" target="_blank"><i class="fa fa-facebook social-icons"  aria-hidden="true"></i></a></li>
           <li class="social-circle"><a href="https://www.linkedin.com/in/sunday-ezeilo-a6a67664/" class="icoLinkedin" target="_blank"><i class="fa fa-linkedin social-icons" aria-hidden="true"></i></a></li>
@@ -44,9 +45,9 @@
 
       <h2 class="my-best-works-heading">My best works</h2>
 
-      <div class="row screenshots-wrap justify-content-center">
+      <div class="row screenshots-wrap">
 
-        <div class="col-md-6 work-wrap work-wrap-1">
+        <div class="col-lg-6 work-wrap work-wrap-1">
           <div class="work-1 screenshots">
             <p class="proj-title">IoT Blog Post</p>
           </div>
@@ -92,7 +93,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 work-wrap work-wrap-2">
+        <div class="col-lg-6 work-wrap work-wrap-2">
           <div class="work-2 screenshots">
             <p class="proj-title">Social Network</p>
           </div>
@@ -134,7 +135,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 work-wrap">
+        <div class="col-lg-4 work-wrap">
           <div class="work-3 screenshots">
             <p class="proj-title">Electronics Store</p>
           </div>
@@ -175,7 +176,7 @@
           </div>
         </div>
 
-        <div class="col-md-4  work-wrap">
+        <div class="col-lg-4  work-wrap">
           <div class="work-4 screenshots">
             <p class="proj-title">Weather App</p>
           </div>
@@ -186,7 +187,7 @@
           </div>
           <div class="details-btn-wrap">
             <button type="button" class="proj-detail-btn" data-bs-toggle="modal" data-bs-target="#work-wrap-4">See details</button>            
-          </div>        
+          </div>     
         </div>
 
         <!-- Modal -->
@@ -216,7 +217,7 @@
           </div>
         </div>
 
-        <div class="col-md-4  work-wrap">
+        <div class="col-lg-4  work-wrap">
           <div class="work-5 screenshots">
             <p class="proj-title">Healthy Eat Restaurantt</p>
           </div>
@@ -229,56 +230,61 @@
             <button type="button" class="proj-detail-btn" data-bs-toggle="modal" data-bs-target="#work-wrap-5">See details</button>            
           </div>        
         </div>
-      </div>
 
-      <!-- Modal -->
-      <div class="modal fade" id="work-wrap-5" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="work-wrap">
-                <div class="work-5 screenshots"></div>
-                <div class="buttons-wrap">
-                  <a href="https://elastic-goodall-394d0c.netlify.app/" class="see-live" target="_blank">See live</a>
-                  <a href="https://github.com/ezeilo-su/restaurant-page" class="see-source" target="_blank">See source</a>
+        <!-- Modal -->
+        <div class="modal fade" id="work-wrap-5" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="work-wrap">
+                  <div class="work-5 screenshots"></div>
+                  <div class="buttons-wrap">
+                    <a href="https://elastic-goodall-394d0c.netlify.app/" class="see-live" target="_blank">See live</a>
+                    <a href="https://github.com/ezeilo-su/restaurant-page" class="see-source" target="_blank">See source</a>
+                  </div>
+                  <h3 class="pro-title">Healthy Eat Restaurantt</h3>
+                  <div class="lang-list">
+                    <button class="html-btn">HTML/CSS</button>
+                    <button class="rails-btn">Ruby on Rails</button>
+                    <button class="js-btn">JavaScript</button>
+                  </div>
+                  <p class="pro-detail-text">This is an implementation of Microverse Restaurant Page project. The project was built using webpack to bundle application dependencies.</p>                         
                 </div>
-                <h3 class="pro-title">Healthy Eat Restaurantt</h3>
-                <div class="lang-list">
-                  <button class="html-btn">HTML/CSS</button>
-                  <button class="rails-btn">Ruby on Rails</button>
-                  <button class="js-btn">JavaScript</button>
-                </div>
-                <p class="pro-detail-text">This is an implementation of Microverse Restaurant Page project. The project was built using webpack to bundle application dependencies.</p>                         
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div id="about-section">
-        <h2 class="about-me-heading">About me</h2>
-        <p class="about-me-txt">I am a Full-Stack Remote Software Developer with a creative mindset and ability to solve problems. I have entry level experience in Ruby on Rails PostgreSQL, Node.js, Express, MongoDB, React. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
-        <a href="https://docs.google.com/document/d/1z1VeeTfpXx9KVYGDDXZDb_9zDKEWHtetf1mauAfBx2Y/edit?usp=sharing" class="get-resume" target="_blank">Get my resume</a>
-      </div>
+      <div class="row about-skills justify-content-between">
 
-      <div class="lang-section">
-        <h3 class="heading">Languages</h3>
-        <p class="languages">JavaScript | Ruby | HTML | CSS</p>
-      </div>
+        <div class="col-md col-lg-6 about-section">
+          <h2 class="about-me-heading">About me</h2>
+          <p class="about-me-txt">I am a Full-Stack Remote Software Developer with a creative mindset and ability to solve problems. I have entry level experience in Ruby on Rails PostgreSQL, Node.js, Express, MongoDB, React. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
+          <a href="https://docs.google.com/document/d/1z1VeeTfpXx9KVYGDDXZDb_9zDKEWHtetf1mauAfBx2Y/edit?usp=sharing" class="get-resume" target="_blank">Get my resume</a>
+        </div>
 
-      <div class="framework-section">
-        <h3 class="heading">Frameworks</h3>
-        <p class="framework-list">
-          Ruby on Rails | Bootstrap | RSpec Capybara | Selenium | NodeJS | Express React
-        </p>
-      </div>
-
-      <div class="skills-section">
-        <h3 class="heading">Skills</h3>
-        <p class="skill-list">Terminal | Git | GitHub | GitLab | BitBucket | RESTful APIs | PostgreSQL</p>
+        <div class="col-lg-6 lang-skills">
+          <div class="lang-section">
+            <h3 class="heading">Languages</h3>
+            <p class="languages">JavaScript | Ruby | HTML | CSS</p>
+          </div>
+  
+          <div class="framework-section">
+            <h3 class="heading">Frameworks</h3>
+            <p class="framework-list">
+              Ruby on Rails | Bootstrap | RSpec Capybara | Selenium | NodeJS | Express React
+            </p>
+          </div>
+  
+          <div class="skills-section">
+            <h3 class="heading">Skills</h3>
+            <p class="skill-list">Terminal | Git | GitHub | GitLab | BitBucket | RESTful APIs | PostgreSQL</p>
+          </div>
+        </div>
       </div>
 
       <div id="contact-section">
@@ -286,8 +292,10 @@
         <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.</p>
 
         <form onsubmit = "return myValidation();" action="https://mailthis.to/ezeilo.su@gmail.com" method="POST">
-          <input type="text" name="name" id="name" placeholder="Full name*">
-          <input type="email" id="email" name="_replyto" placeholder="Email*">
+          <div class="d-lg-flex input-wrap">
+            <input type="text" name="name" id="name" placeholder="Full name*">
+            <input type="email" id="email" name="_replyto" placeholder="Email*">
+          </div>
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Message*"></textarea>
           <input type="submit" value="Get in touch" class="contact-button">
         </form>
