@@ -18,6 +18,12 @@ a {
   /* social icons */
 }
 
+.page .main-bg-1,
+.page .main-bg-2 {
+  background: url("../images/desktop/background-shapes-desktop-1.png");
+  display: none;
+}
+
 .page #main-nav {
   width: 100%;
   padding-top: 10px;
@@ -76,7 +82,6 @@ a {
 }
 
 .page .brief-intro .welcome-msg {
-  font-size: 16px;
   line-height: 30px;
   color: #727274;
   padding-right: 20px;
@@ -413,8 +418,9 @@ a {
 }
 
 .page #contact-section .contact-text {
-  font-size: 16px;
   color: #FFFFFF;
+  max-width: 590px;
+  font-size: 16px;
   line-height: 24px;
   text-align: center;
   margin-left: 15px;
@@ -548,6 +554,23 @@ a {
   .page {
     padding-left: 93px;
   }
+  .page .main-bg-1 {
+    position: absolute;
+    width: 320px;
+    height: 576px;
+    left: 884px;
+    top: 174px;
+    display: block;
+  }
+  .page .main-bg-2 {
+    position: absolute;
+    width: 320px;
+    height: 800px;
+    left: 114px;
+    top: 1770px;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
   .page #main-nav .profile-photo {
     width: 120px;
     height: 130px;
@@ -564,17 +587,37 @@ a {
     display: block;
     color: #F9855B;
   }
+  .page .brief-intro h1 {
+    max-width: 791px;
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 72px;
+    color: #000000;
+  }
+  .page .brief-intro .welcome-msg {
+    max-width: 726px;
+    font-size: 18px;
+    line-height: 27px;
+  }
   .page .my-work-social {
     width: 50%;
     margin-top: 50px;
   }
+  .page .my-best-works-heading {
+    margin-top: 70px;
+  }
   .page .screenshots-wrap .work-wrap {
+    z-index: 2;
     max-width: 600px;
   }
   .page .screenshots-wrap .work-wrap .screenshots {
     background-position: center;
   }
+  .page .about-skills {
+    margin-top: 40px;
+  }
   .page .about-skills .about-section {
+    z-index: 4;
     max-width: 40%;
   }
   .page .about-skills .lang-skills {
@@ -585,7 +628,9 @@ a {
     margin-top: 0;
   }
   .page #contact-section {
+    margin-top: 90px;
     max-height: 864px;
+    margin-left: -93px;
   }
   .page #contact-section .contact-heading {
     font-weight: 800;
