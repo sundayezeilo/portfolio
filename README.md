@@ -1,4 +1,6 @@
-### This is my personal portfolio page with some example projects ranging from social media sites to blog posts, in several different languages. Built using JavaScript, HTML, and CSS.
+# Portfolio
+
+> Personal portfolio page wich displays some example projects ranging from social media sites to blog posts, in several different languages. Built using JavaScript, HTML, and SASS.
 
 ### Check out the Live demo [here](https://ezeilo-su.github.io/portfolio/).
 
