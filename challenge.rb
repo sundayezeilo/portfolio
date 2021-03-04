@@ -2,28 +2,28 @@ def find_range(num, min, max)
   arr_of_range = []
   prev_not_found = nil
   next_not_found = nil
+  num_hash = {}
+  num.each { |n| num_hash[n.to_s] = n }
 
   (min..max).each do |n|
-    if(num.include?(n))
-      if prev_not_found == nil
-        next
-      elsif next_not_found != nil
+    if num_hash[n.to_s]
+      next unless prev_not_found
+
+      if next_not_found
         arr_of_range << "#{prev_not_found} => #{next_not_found}"
       else
         arr_of_range << prev_not_found.to_s
       end
       prev_not_found = nil
       next_not_found = nil
-    elsif prev_not_found != nil
+    elsif prev_not_found
       next_not_found = n
     else
       prev_not_found = n
     end
   end
 
-  if prev_not_found && next_not_found
-    arr_of_range << "#{prev_not_found} => #{next_not_found}"
-  end
+  arr_of_range << "#{prev_not_found} => #{next_not_found}" if prev_not_found && next_not_found
 
   arr_of_range
 end

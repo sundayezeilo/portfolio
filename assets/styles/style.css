@@ -71,13 +71,13 @@ a {
 }
 
 .page .brief-intro {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .page .brief-intro h1 {
   font-weight: 800;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 30px;
+  line-height: 38px;
   color: #000000;
 }
 
@@ -550,6 +550,20 @@ a {
   border-bottom: 1px solid #FFA07D;
 }
 
+@media (min-width: 768px) {
+  .page #main-nav .profile-photo {
+    width: 130px;
+    height: 130px;
+  }
+  .brief-intro {
+    margin-top: 20px;
+  }
+  .brief-intro h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
 @media (min-width: 992px) {
   .page {
     padding-left: 93px;
@@ -572,11 +586,14 @@ a {
             transform: rotate(-180deg);
   }
   .page #main-nav .profile-photo {
-    width: 120px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
   }
   .page #main-nav .nav-links {
     width: 412px;
+    margin-top: 20px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
   }
   .page #main-nav .nav-links a {
     font-weight: bold;
@@ -589,10 +606,8 @@ a {
   }
   .page .brief-intro h1 {
     max-width: 791px;
-    font-weight: 800;
-    font-size: 68px;
+    font-size: 48px;
     line-height: 72px;
-    color: #000000;
   }
   .page .brief-intro .welcome-msg {
     max-width: 726px;
