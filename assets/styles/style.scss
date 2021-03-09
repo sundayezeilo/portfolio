@@ -558,9 +558,10 @@ a {
       position: absolute;
       width: 320px;
       height: 576px;
-      left: 884px;
+      left: 846px;
       top: 120px;
       display: block;
+      transform: rotate(-180deg);
     }
 
     .main-bg-2 {
