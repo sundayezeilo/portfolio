@@ -102,7 +102,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 300px;
   margin: 10px auto;
   padding-left: 0;
 }
@@ -510,7 +509,6 @@ a {
 }
 
 .page #contact-section .social-network {
-  width: 100%;
   padding-left: 0;
   margin-top: 30px;
 }
@@ -672,6 +670,9 @@ a {
   }
   .page #contact-section form input {
     width: 672px;
+  }
+  .page #contact-section ul.social-network {
+    width: 160px;
   }
   .page #contact-section .footer-border {
     max-width: 669px;

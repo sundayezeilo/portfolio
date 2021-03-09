@@ -90,7 +90,6 @@ a {
   ul.social-network {
     display: inline-flex;
     justify-content: space-between;
-    max-width: 300px;
     margin: 10px auto;
     padding-left: 0;
   
@@ -487,7 +486,6 @@ a {
     }
 
     .social-network {
-      width: 100%;
       padding-left: 0;
       margin-top: 30px;
 
@@ -688,6 +686,10 @@ a {
         input {
           width: 672px;
         }
+      }
+
+      ul.social-network {
+        width: 160px;
       }
 
       .footer-border {
