@@ -460,7 +460,7 @@ a {
       align-items: center;
       max-width: 289.8px;
       margin: 0 auto;
-      margin-top: 30px;
+      margin-top: 10px;
       justify-content: center;
 
       a {
@@ -485,9 +485,14 @@ a {
       }
     }
 
+    .contact-links-wrap {
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+
     .social-network {
       padding-left: 0;
-      margin-top: 30px;
+      margin-top: 10px;
 
       a.icoLinkedin:hover {
         background-color: #007bb7;
@@ -521,9 +526,9 @@ a {
     }
 
     .footer-border {
-      max-width: 289.8px;     //90% of max-width:  332px;
+      max-width: 289.8px;
       margin: 0 auto;
-      margin-top: 20px;
+      margin-top: 10px;
       border-bottom: 1px solid #FFA07D;
     }
   }
@@ -695,8 +700,13 @@ a {
 
       .footer-border {
         max-width: 669px;
-        margin-top: 30px;
+        margin-top: 20px;
         border: 1px solid #FFA07D;
+      }
+
+      .contact-links-wrap {
+        margin-top: 40px;
+        max-width: 590px;
       }
     }
   }
