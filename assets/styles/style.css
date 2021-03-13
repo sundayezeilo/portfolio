@@ -373,14 +373,16 @@ a {
 
 .page .lang-section,
 .page .skills-section,
+.page .prof-section,
 .page .framework-section {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 16px;
   border-bottom: 1px solid #CFD2DA;
 }
 
 .page .lang-section .heading,
 .page .skills-section .heading,
+.page .prof-section .heading,
 .page .framework-section .heading {
   font-weight: 600;
   font-size: 20px;
@@ -390,12 +392,13 @@ a {
 
 .page .lang-section p,
 .page .skills-section p,
+.page .prof-section p,
 .page .framework-section p {
   font-size: 16px;
   color: #727274;
 }
 
-.page .skills-section {
+.page .prof-section {
   border: none;
 }
 
